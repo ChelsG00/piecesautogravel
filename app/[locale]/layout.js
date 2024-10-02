@@ -1,13 +1,13 @@
 // RootLayout.js
 import React from 'react';
-import { Inter, Audiowide} from "next/font/google";
-import "./globals.css"
-import "./styles.css";
-import { getDictionary } from "./dictionaries";
-import  TopLanguage  from "@/components/pages/nav/TopLanguage";
-import NavBar from "@/components/pages/nav/NavBar";
-import  Sponsors  from '@/components/pages/sponsors/sponsors';
-import Footer from "@/components/pages/footer/Footer";
+import { Inter, Audiowide } from 'next/font/google';
+import './globals.css';
+import './styles.css';
+import { getDictionary } from './dictionaries';
+import TopLanguage from '@/components/pages/nav/TopLanguage';
+import NavBar from '@/components/pages/nav/NavBar';
+import Sponsors from '@/components/pages/sponsors/Sponsors';  // Adjusted path (capital 'S')
+import Footer from '@/components/pages/footer/Footer';
 import RenderPage from './page'; // Import the RenderPage function
 
 const inter = Inter({
@@ -21,20 +21,13 @@ const audiowide = Audiowide({
   weight: '400',
 });
 
-// const orbitron = Orbitron({
-//   subsets: ['latin'],
-//   variable: '--font-orbitron',
-//   weight: '900',
-// });
-
 export default async function RootLayout({ children, params }) {
   const translation = await getDictionary(params.locale);
 
   const handlePinSubmit = (enteredPin) => {
     const correctPin = process.env.REACT_APP_PIN;
     if (enteredPin === correctPin) {
-      // Handle successful authentication
-      console.log("Authenticated!");
+      console.log('Authenticated!');
     } else {
       alert('Incorrect PIN');
     }
@@ -45,9 +38,7 @@ export default async function RootLayout({ children, params }) {
       <body className={`${inter.variable} ${audiowide.variable}`}>
         <TopLanguage t={translation} locale={params.locale} />
         <NavBar t={translation} locale={params.locale} />
-        <div>
-          {children}
-        </div>
+        <div>{children}</div>
         <Sponsors t={translation} locale={params.locale} />
         <Footer t={translation} locale={params.locale} />
       </body>
