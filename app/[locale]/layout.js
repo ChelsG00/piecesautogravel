@@ -4,9 +4,9 @@ import { Inter, Audiowide } from 'next/font/google';
 import './globals.css';
 import './styles.css';
 import { getDictionary } from './dictionaries';
-// import TopLanguage from '@/components/pages/nav/TopLanguage';
+import { Toplanguage } from '@/components/pages/nav/Toplanguage';
 import NavBar from '@/components/pages/nav/NavBar';
-// import Sponsors from '@/components/pages/sponsors/sponsors';
+import { Sponsors } from '@/components/pages/sponsors/Sponsors';
 import Footer from '@/components/pages/footer/Footer';
 import RenderPage from './page'; // Import the RenderPage function
 
@@ -36,10 +36,10 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={params.locale} suppressHydrationWarning>
       <body className={`${inter.variable} ${audiowide.variable}`}>
-        {/* <TopLanguage t={translation} locale={params.locale} /> */}
+        <Toplanguage t={translation} locale={params.locale} />
         <NavBar t={translation} locale={params.locale} />
         <div>{children}</div>
-        {/* <Sponsors t={translation} locale={params.locale} /> */}
+        <Sponsors t={translation} locale={params.locale} />
         <Footer t={translation} locale={params.locale} />
       </body>
     </html>
