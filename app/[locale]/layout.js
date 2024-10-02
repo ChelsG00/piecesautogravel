@@ -4,7 +4,7 @@ import { Inter, Audiowide } from 'next/font/google';
 import './globals.css';
 import './styles.css';
 import { getDictionary } from './dictionaries';
-import Toplanguage from '@/components/pages/nav/Toplanguage';
+import TopLanguage from '@/components/pages/nav/TopLanguage';
 import NavBar from '@/components/pages/nav/NavBar';
 import Sponsors from '@/components/pages/sponsors/Sponsors';
 import Footer from '@/components/pages/footer/Footer';
@@ -36,7 +36,7 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={params.locale} suppressHydrationWarning>
       <body className={`${inter.variable} ${audiowide.variable}`}>
-        <Toplanguage t={translation} locale={params.locale} />
+        <TopLanguage t={translation} locale={params.locale} />
         <NavBar t={translation} locale={params.locale} />
         <div>{children}</div>
         <Sponsors t={translation} locale={params.locale} />

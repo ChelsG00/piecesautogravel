@@ -1,7 +1,7 @@
 import React from 'react'
 import Translate from '../translate/translate'
 
-const Toplanguage = ({t, locale}) => {
+const TopLanguage = ({t, locale}) => {
   return (
     <div>
         <Translate t={t} locale={locale}/>
@@ -9,4 +9,4 @@ const Toplanguage = ({t, locale}) => {
   )
 }
 
-export default Toplanguage
+export default TopLanguage
