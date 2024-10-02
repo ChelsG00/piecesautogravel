@@ -4,9 +4,9 @@ import { Inter, Audiowide} from "next/font/google";
 import "./globals.css"
 import "./styles.css";
 import { getDictionary } from "./dictionaries";
-import TopLanguage from "@/components/pages/nav/TopLanguage";
+import { TopLanguage } from "@/components/pages/nav/TopLanguage";
 import NavBar from "@/components/pages/nav/NavBar";
-import Sponsors from '@/components/pages/sponsors/sponsors';
+import { Sponsors } from '@/components/pages/sponsors/sponsors';
 import Footer from "@/components/pages/footer/Footer";
 import RenderPage from './page'; // Import the RenderPage function
 
