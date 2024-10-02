@@ -1,5 +1,5 @@
 import React from 'react'
-import Translate from '../translate/Translate'
+import Translate from '../translate/translate'
 
 const TopLanguage = ({t, locale}) => {
   return (
