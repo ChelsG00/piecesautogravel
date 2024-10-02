@@ -6732,6 +6732,11 @@ width: 100%;
 	}
 
 
+	.lg\:border-\[1px\]{
+		border-width: 1px;
+	}
+
+
 	.lg\:border-b-\[1px\]{
 		border-bottom-width: 1px;
 	}
@@ -6785,6 +6790,30 @@ width: 100%;
 
 
 	.lg\:bg-white{
+		--tw-bg-opacity: 1;
+		background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+	}
+
+
+	.lg\:bg-\[\#5b5b5b\]{
+		--tw-bg-opacity: 1;
+		background-color: rgb(91 91 91 / var(--tw-bg-opacity));
+	}
+
+
+	.lg\:bg-\[\#e2e2e2\]{
+		--tw-bg-opacity: 1;
+		background-color: rgb(226 226 226 / var(--tw-bg-opacity));
+	}
+
+
+	.lg\:bg-\[\#fbfbfb\]{
+		--tw-bg-opacity: 1;
+		background-color: rgb(251 251 251 / var(--tw-bg-opacity));
+	}
+
+
+	.lg\:bg-\[\#ffffff\]{
 		--tw-bg-opacity: 1;
 		background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 	}
