@@ -7,8 +7,6 @@ import { Partingsection } from '@/components/pages/home/Partingsection';
 import {Flexfleet} from '@/components/pages/home/Flexfleet';
 import { Promos } from '@/components/pages/home/Promos';
 import { Socials } from '@/components/pages/home/Socials';
-import Sponsors from '@/components/pages/sponsors/sponsors';
-import LoaderSvg from '@/components/pages/loader/loaderSvg';
 
 
 const Home = async ({params}) => {
