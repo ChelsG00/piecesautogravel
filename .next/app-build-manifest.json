@@ -12,11 +12,6 @@
       "static/css/css-app_locale_styles_css.css",
       "static/css/css-node_modules_next_font_google_target_css-node_modules_next_font_google_target_css.css",
       "static/chunks/app/[locale]/layout.js"
-    ],
-    "/[locale]/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/[slug]/page.js"
     ]
   }
 }
