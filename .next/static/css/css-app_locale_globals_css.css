@@ -2394,24 +2394,15 @@ body {
   }
 
 
-  .lg\:bg-\[rgb\(14\2c 58\2c 116\)\]{
+  .lg\:bg-\[\#f7f7f7\]{
     --tw-bg-opacity: 1;
-    background-color: rgb(14 58 116 / var(--tw-bg-opacity));
+    background-color: rgb(247 247 247 / var(--tw-bg-opacity));
   }
 
 
-  .lg\:bg-\[rgba\(12\2c 12\2c 12\2c 0\.78\)\]{
-    background-color: rgba(12,12,12,0.78);
-  }
-
-
-  .lg\:bg-\[rgba\(19\2c 19\2c 19\2c 0\.78\)\]{
-    background-color: rgba(19,19,19,0.78);
-  }
-
-
-  .lg\:bg-\[rgba\(24\2c 24\2c 24\2c 0\.78\)\]{
-    background-color: rgba(24,24,24,0.78);
+  .lg\:bg-\[\#ffffff\]{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
 
@@ -2425,36 +2416,17 @@ body {
   }
 
 
+  .lg\:bg-\[rgba\(27\2c 84\2c 145\2c 0\.71\)\]{
+    background-color: rgba(27,84,145,0.71);
+  }
+
+
   .lg\:bg-transparent{
     background-color: transparent;
   }
 
 
   .lg\:bg-white{
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
-
-  .lg\:bg-\[\#5b5b5b\]{
-    --tw-bg-opacity: 1;
-    background-color: rgb(91 91 91 / var(--tw-bg-opacity));
-  }
-
-
-  .lg\:bg-\[\#e2e2e2\]{
-    --tw-bg-opacity: 1;
-    background-color: rgb(226 226 226 / var(--tw-bg-opacity));
-  }
-
-
-  .lg\:bg-\[\#fbfbfb\]{
-    --tw-bg-opacity: 1;
-    background-color: rgb(251 251 251 / var(--tw-bg-opacity));
-  }
-
-
-  .lg\:bg-\[\#ffffff\]{
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
@@ -2556,6 +2528,11 @@ body {
   }
 
 
+  .lg\:pl-7{
+    padding-left: 1.75rem;
+  }
+
+
   .lg\:pl-\[150px\]{
     padding-left: 150px;
   }
@@ -2568,6 +2545,11 @@ body {
 
   .lg\:pl-\[50px\]{
     padding-left: 50px;
+  }
+
+
+  .lg\:pr-10{
+    padding-right: 2.5rem;
   }
 
 
@@ -2628,6 +2610,11 @@ body {
 
   .lg\:pt-32{
     padding-top: 8rem;
+  }
+
+
+  .lg\:pt-5{
+    padding-top: 1.25rem;
   }
 
 
@@ -2696,6 +2683,11 @@ body {
   }
 
 
+  .lg\:text-\[25px\]{
+    font-size: 25px;
+  }
+
+
   .lg\:text-\[32px\]{
     font-size: 32px;
   }
@@ -2703,6 +2695,11 @@ body {
 
   .lg\:text-xl{
     font-size: 1.25rem;
+  }
+
+
+  .lg\:font-bold{
+    font-weight: 700;
   }
 
 
@@ -2714,6 +2711,12 @@ body {
   .lg\:text-\[\#333333\]{
     --tw-text-opacity: 1;
     color: rgb(51 51 51 / var(--tw-text-opacity));
+  }
+
+
+  .lg\:text-\[rgb\(10\2c 69\2c 133\)\]{
+    --tw-text-opacity: 1;
+    color: rgb(10 69 133 / var(--tw-text-opacity));
   }
 
 
