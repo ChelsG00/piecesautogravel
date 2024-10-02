@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from 'next/image';
 
-function Translate({ t, locale }) {
+function Translate ({ t, locale }) {
     const pathName = usePathname();
     let link = "/"
     switch (pathName) {
