@@ -30,7 +30,7 @@
     "buttons": {
         "homeheadone": "PIÈCES D'AUTO",
         "homeheadtwo": "CONTACTEZ-NOUS",
-        "callone" : "APPELLEZ MAINTENANT",
+        "callone" : "APPELER MAINTENANT",
         "shopused": "MAGASINER PIÈCES USAGÉES",
         "shopnew": "MAGASINER PIÈCES NEUVES",
         "contactus": "Contactez-nous pour plus d'informations",
@@ -65,7 +65,7 @@
         "autoh3": "PIÈCES D'AUTO",
         "partsh1": "PIÈCES D'AUTO USAGÉES",
         "usedtext": "Commandez vos pièces automobiles usagées sur notre boutique en ligne. Livraison rapide partout au Québec!",
-        "usedtextbig": "Vous recherchez des pièces automobiles d’occasion fiables ? Ne cherchez plus ! Notre boutique en ligne propose une large sélection de pièces de qualité testée à des prix imbattables. Qu'il s'agisse d'une réparation ou d'une mise à niveau, nous avons ce qu'il vous faut avec une livraison rapide partout au Québec. Achetez en toute confiance et remettez votre véhicule sur la route en un rien de temps!",
+        "usedtextbig": "Vous recherchez des pièces automobiles d’occasion fiables ? Ne cherchez plus ! Notre boutique en ligne propose une large sélection de pièces de qualité testées à des prix imbattables. Qu'il s'agisse d'une réparation ou d'une mise à niveau, nous avons ce qu'il vous faut avec une livraison rapide partout au Québec. Achetez en toute confiance et remettez votre véhicule sur la route en un rien de temps!",
         "new": "PIÈCES D'AUTO NEUVES",
         "newtext" : "Besoin de trouver des pièces automobiles neuves? Contactez-nous pour trouver la pièce d'auto dont vous avez besoin.",
         "newtextbig": "Vous recherchez des pièces automobiles neuves ? Nous avons exactement ce dont vous avez besoin ! Nous sommes là pour vous aider à trouver la pièce idéale pour assurer le bon fonctionnement de votre véhicule, contactez-nous directement pour une assistance personnalisée!"
@@ -86,7 +86,7 @@
 
     "promos" : {
         "h3": "PROMOS",
-        "h1": "PROMO EN COURS OU COMMUNIQUÉ",
+        "h1": "PROMO EN COURS OU COMMUNIQUÉS",
         "palliah1": "Don Pallia-Vie",
         "palliatext": "Nous sommes fiers de supporter Pallia-Vie. Nous vous invitons à visiter leur site web à",
         "careersh1": "Opportunités de carrière",
@@ -109,9 +109,9 @@
         "h1": "Nos valeurs",
         "integrity" : "Intégrité et honnêteté",
         "intregritytext": "Nous sommes une équipe engagée à l'écoute des besoins de nos clients. De plus, notre intégrité et notre honnêteté guident nos décisions et nos relations commerciales. La protection de l'environnement est également un aspect important pour nous, puisque nous nous préoccupons de l'avenir de nos enfants.",
-        "service": "Orienté vers le service",
+        "service": "L'efficacité",
         "serviceText": "Le service est un aspect au centre des préoccupations de l'entreprise. Nous avons une équipe exceptionnelle et c'est grâce à cette dernière que nous pouvons répondre aux besoins des clients. Lorsque nous promettons une pièce pour un client, l'équipe doit entrer en action le plus tôt possible. Que ce soit de bonne heure ou à la noirceur, on livre la marchandise.", 
-        "dedicated": "Dédié",
+        "dedicated": "Dévouement",
         "dedicatedtext" : "Nous sommes dédiés à n'avoir aucune crainte du travail. Un client a un besoin, et toute l'équipe se soutient pour réaliser la promesse que nous lui avons faite. De plus, nous sommes dédiés aux besoins de notre équipe et de notre entreprise. Il est important d'être toujours à l'écoute des besoins de nos confrères de travail et d'être prêts à porter main forte aux autres."
     },
 
@@ -134,7 +134,7 @@
     "vehicles" : {
         "h1" : "PRÊT À VENDRE VOTRE VOITURE?",
         "textone" : "Êtes-vous prêt à vendre votre véhicule ? Qu'il soit en bon état ou non, nous achèterons votre véhicule.",
-        "texttwo" : "Nous faisons l'achat de véhicule prêts à être mis au rancart via les deux programmes suivants. Il vous est possible d'obtenir une évaluation en ligne."
+        "texttwo" : "Nous faisons l'achat de véhicules prêts à être mis au rancart via les deux programmes suivants. Il vous est possible d'obtenir une évaluation en ligne."
     },
 
     "adieuminoune" : {

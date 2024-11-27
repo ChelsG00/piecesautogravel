@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Mechanichome = ({t, locale}) => {
   return (
-    <div>
+    <div className='lg:flex'>
         <div id="first-box" className="h-[500px] w-full bg-[#fefefe] pl-5 pr-5 flex items-center sm:h-[350px] sm:items-center sm:px-12 md:h-[500px] md:pl-20 md:w-[650px] md:pt-16 lg:w-[950px] lg:pl-32 lg:h-[400px] lg:pt-[140px]">
             <div >
                  <p className='text-black text-base pt-8 pr-4 pb-2 '>- {t.threesections.mechanich3} -</p>
@@ -16,8 +16,9 @@ const Mechanichome = ({t, locale}) => {
             </div>
         </div>    
 
-        <div className='w-[592px] h-auto z-10 relative sm:w-[120vw] lg:w-[80vw] lg:ml-[400px]'>
-          <Image src="/img/building-illustration-transparent-bg.svg" width={600} height={600} alt="An illustration of the gravel auto parts building, contains three garages and is mostly blue" title="Gravel Auto Parts Building" className='lg:w-[80vw]'/>
+        <div className='w-[592px] h-[200px] z-10 relative sm:w-[120vw] lg:w-[80vw] lg:ml-[400px]'>
+          {/* <Image src="/img/building-illustration-transparent-bg.svg" width={600} height={600} alt="An illustration of the gravel auto parts building, contains three garages and is mostly blue" title="Gravel Auto Parts Building" className='lg:w-[80vw]'/> */}
+          <Image src="/img/gravel-building.png" width={600} height={600} alt="An illustration of the gravel auto parts building, contains three garages and is mostly blue" title="Gravel Auto Parts Building" className='lg:w-[80vw]'/>
           </div>
     </div>
   )
