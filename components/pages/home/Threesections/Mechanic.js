@@ -16,9 +16,9 @@ const Mechanichome = ({t, locale}) => {
             </div>
         </div>    
 
-        <div className='w-[592px] h-[200px] z-10 relative sm:w-[120vw] lg:w-[80vw] lg:ml-[400px]'>
+        <div className='w-[600px] h-[355px] z-10 relative mt-[-120px] right-7 sm:w-[120vw] lg:w-[80vw] lg:ml-[400px]'>
           {/* <Image src="/img/building-illustration-transparent-bg.svg" width={600} height={600} alt="An illustration of the gravel auto parts building, contains three garages and is mostly blue" title="Gravel Auto Parts Building" className='lg:w-[80vw]'/> */}
-          <Image src="/img/gravel-building.png" width={600} height={600} alt="An illustration of the gravel auto parts building, contains three garages and is mostly blue" title="Gravel Auto Parts Building" className='lg:w-[80vw]'/>
+          <Image src="/img/outside-building.png" width={600} height={600} alt="An illustration of the gravel auto parts building, contains three garages and is mostly blue" title="Gravel Auto Parts Building" className='lg:w-[80vw]'/>
           </div>
     </div>
   )

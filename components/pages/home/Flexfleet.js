@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 export const Flexfleet = ({t, locale}) => {
   return (
-    <div className='lg:flex lg:justify-center lg:items-center lg:pr-5 '>
-    <div id="arg-section" className='pb-28 pt-12 pl-5 pr-5 bg-white text-center lg:text-left lg:pt-28'>
+    <div className='pb-6 lg:flex lg:justify-center lg:items-center lg:pr-5 '>
+    <div id="arg-section" className='pb-12 pt-12 pl-5 pr-5 bg-white text-center lg:text-left lg:pt-28'>
         <Image src="/img/Flex-Fleet.png" width={600} height={600} alt="ARG Logo, theres a hitch beside the letters arg that is orange and the arg letters are charcoal grey" title="ARG Logo" className='text-left w-[200px] h-auto mx-auto lg:ml-1 lg:w-[300px]'/> 
         <div className='ml-3'>
                 <h1 className='text-3xl font-bold uppercase mb-3 mt-3 text-[#444444] relative'>{t.flex.h1}</h1>
@@ -18,7 +18,7 @@ export const Flexfleet = ({t, locale}) => {
         </div>
     </div>
     <div>
-    <Image src="/img/towing-truck-fft.jpg" width={1000} height={600} alt="An Icon of a location marker that is the color grey" title="Grey Location Marker" className='w-[30vw]'/>
+    <Image src="/img/towing-truck-fft.jpg" width={1000} height={600} alt="An Icon of a location marker that is the color grey" title="Grey Location Marker" className='w-[70vw] mx-auto'/>
   </div>
   </div>
   )

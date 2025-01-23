@@ -18,6 +18,16 @@ const Contactinfo = ({t}) => {
         </div>
       </div> 
 
+      {/* Text Contact Section */}
+       <div id="email-contact-section" className='flex justify-center items-center flex-col lg:mr-8'>
+        <Image src="/img/icon-text.png" width={600} height={600} alt="Blue mail envelope icon" title="Mail Envelope Icon Blue" className="w-[40px] mt-6 mb-2"/>
+        <div>
+          <div><h1>Envoyer Nous un Texto</h1></div>
+          <a className="block text-xl text-[#303030] underline pt-2 pb-2" href="mailto:info@pneugravel.com">579-990-0486</a>
+
+        </div>
+      </div>
+
       {/* Email Contact Section */}
       <div id="email-contact-section" className='flex justify-center items-center flex-col lg:mr-8'>
         <Image src="/img/icon-mail.svg" width={600} height={600} alt="Blue mail envelope icon" title="Mail Envelope Icon Blue" className="w-[40px] mt-6 mb-2"/>
@@ -27,14 +37,7 @@ const Contactinfo = ({t}) => {
         </div>
       </div>
 
-       {/* Text Contact Section */}
-       <div id="email-contact-section" className='flex justify-center items-center flex-col lg:mr-8'>
-        <Image src="/img/icon-mail.svg" width={600} height={600} alt="Blue mail envelope icon" title="Mail Envelope Icon Blue" className="w-[40px] mt-6 mb-2"/>
-        <div>
-          <a className="block text-xl text-[#303030] underline pt-2 pb-2" href="mailto:info@pneugravel.com">info@pneugravel.com</a>
-          <a className="block text-xl text-[#303030] underline pt-2 pb-2" href="mailto:info@pagravel.com">info@pagravel.com</a>
-        </div>
-      </div>
+      
     </div>
 
 
