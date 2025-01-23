@@ -207,8 +207,9 @@
     },
 
     "contact" : {
-        "h1" : "CONTACT INFO",
+        "h1" : "CONTACT US",
         "text" : "change this text",
+        "texting": "Reach us by text for your auto part needs",
         "meet" : "MEET THE TEAM",
         "textmeet" : "At our company, we're proud of the talented and dedicated individuals who make up our team. Each team member brings their unique skills and perspectives to the table, creating a dynamic and inclusive work environment.",
         "texttwo" : "If you need help locating the ideal auto part, don't hesitate to get in touch with a member of our team."

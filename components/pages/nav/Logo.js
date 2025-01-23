@@ -13,7 +13,7 @@ const Logo = ({locale}) =>  {
   return (
     <div className='col-span-8 lg:grow-[3]"'>
       <a href={`/${locale}/`}>
-       <Image src={getImagePath('logo-gravel-full')} width={600} height={600}   alt='' className='w-[50vw] h-auto relative z-110 ml-[-15px] sm:w-[250px]'/>
+       <Image src={getImagePath('logo-gravel-full')} width={600} height={600}   alt='' className='w-[40vw] h-auto relative z-110 ml-[-15px] sm:w-[250px]'/>
        </a>
     </div>
   )

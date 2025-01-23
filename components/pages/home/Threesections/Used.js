@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Used = ({t, locale}) => {
@@ -11,7 +12,7 @@ const Used = ({t, locale}) => {
                  <p className='text-white text-[1.35rem] pt-3 pb-8 pr-8 lg:hidden'>{t.threesections.usedtext}</p>
                  <p className='hidden lg:block lg:text-white lg:text-[1.35rem] lg:pt-3 lg:pb-8 lg:pr-8 lg:leading-9'>{t.threesections.usedtextbig}</p>
                 <div>
-                    <button className='inline-flex relative z-20 bg-[#fefefee6] rounded pl-3 items-center text-[#ce2227]'><span className="relative z-20 rounded bg-white pl-8 pr-8 pt-3 pb-3  text-xl font-bold sm:font-normal">{t.buttons.shopused}</span></button>
+                  <Link href="https://gravel.ecopieces.ca/" target="_blank" > <button className='inline-flex relative z-20 bg-[#fefefee6] rounded pl-3 items-center text-[#ce2227]'><span className="relative z-20 rounded bg-white pl-8 pr-8 pt-3 pb-3  text-xl font-bold sm:font-normal">{t.buttons.shopused}</span></button> </Link> 
                 </div>
               </div>
               </div>

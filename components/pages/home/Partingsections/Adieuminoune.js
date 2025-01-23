@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
  const Adieuminoune = ({t, locale}) => {
     const getImagePath = (imageName) => {
@@ -33,7 +34,7 @@ import Image from 'next/image';
                       <Image src={getImagePath('adieuminoune-1')} width={600} height={600} alt="Bannière qui lit, soumission en ligne gratuit, remorquage rapide, et paiement instantané" className='w-[70vw]' />
                     </div>
                   
-                      <button className='text-white text-xl pl-8 pr-8 pt-3 pb-3 mb-2 mt-4 bg-[#0b54a2] rounded w-full lg:w-[20vw] lg:bg-[#ffffff] lg:text-black lg:border-black lg:border-[1px]' ><a>{t.buttons.quote}</a></button>
+                      <Link href="https://adieuminoune.com/prix-auto-feraille" target="_blank" ><button className='text-white text-xl pl-8 pr-8 pt-3 pb-3 mb-2 mt-4 bg-[#0b54a2] rounded w-full lg:w-[20vw] lg:bg-[#ffffff] lg:text-black lg:border-black lg:border-[1px]' >{t.buttons.quote}</button> </Link>
                      </div>
 
   )

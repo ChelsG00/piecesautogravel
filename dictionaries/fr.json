@@ -207,6 +207,7 @@
     "contact" : {
         "h1" : "NOUS JOINDRE",
         "text" : "change this text",
+        "texting": "Contactez-nous par texto pour vos besoin de piece d'auto",
         "meet" : "RENCONTRER L'ÉQUIPE",
         "textmeet" : "Dans notre entreprise, nous sommes fiers des personnes talentueuses et dévouées qui composent notre équipe. Chaque membre de l’équipe apporte ses compétences et ses perspectives uniques, créant ainsi un environnement de travail dynamique et inclusif.",
         "texttwo" : "Si vous avez besoin d'aide pour trouver la pièce automobile idéale, n'hésitez pas à contacter un membre de notre équipe."

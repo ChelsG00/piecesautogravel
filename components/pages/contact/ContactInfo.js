@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const Contactinfo = ({t}) => {
   return (
-  <section className='text-center bg-white pl-5 pr-5 pt- pb-12 mt-[150px] lg:pt-[20px]'>
-    <h1 className='text-4xl pb-2 uppercase font-semibold'>{t.contact.h1}</h1>
+  <section className='text-center bg-[#fbfbfb] pl-5 pr-5 pb-12 mt-[150px] lg:pt-[20px]'>
+    <h1 className='text-4xl pb-2 uppercase font-semibold lg:pb-7'>{t.contact.h1}</h1>
 
-    <div className='lg:flex lg:justify-center lg:items-start'>
+    <div className='lg:flex lg:justify-center lg:items-start lg:pb-7'>
       {/* Phone Contact Section */}
       <div id="phone-contact-section" className='flex justify-center items-center flex-col lg:mr-24'>
         <Image src="/img/icon-phone-call.svg" width={600} height={600} alt="Blue phone icon" title="Phone Icon Blue" className="w-[35px] mt-6 mb-2"/>
@@ -18,13 +18,13 @@ const Contactinfo = ({t}) => {
         </div>
       </div> 
 
-      {/* Text Contact Section */}
-       <div id="email-contact-section" className='flex justify-center items-center flex-col lg:mr-8'>
+      {/* Text Contact Section Large */}
+       <div id="email-contact-section" className='hidden lg:flex lg:justify-center lg:items-center lg:flex-col lg:mr-12'>
         <Image src="/img/icon-text.png" width={600} height={600} alt="Blue mail envelope icon" title="Mail Envelope Icon Blue" className="w-[40px] mt-6 mb-2"/>
         <div>
-          <div><h1>Envoyer Nous un Texto</h1></div>
-          <a className="block text-xl text-[#303030] underline pt-2 pb-2" href="mailto:info@pneugravel.com">579-990-0486</a>
-
+          <div><h1 className='lg:text-[20px]'>Envoyer Nous un Texto</h1></div>
+          <p className='text-[16px]'>{t.contact.texting}</p>
+          <a className="block text-xl text-[#303030] underline pt-2 pb-2" href="">579-990-0486</a>
         </div>
       </div>
 
@@ -37,13 +37,23 @@ const Contactinfo = ({t}) => {
         </div>
       </div>
 
+       {/* Text Contact Section */}
+       <div id="email-contact-section" className='flex justify-center items-center flex-col bg-white pt-4 pb-4 lg:hidden'>
+        <Image src="/img/icon-text.png" width={600} height={600} alt="Blue mail envelope icon" title="Mail Envelope Icon Blue" className="w-[40px] mt-6 mb-2"/>
+        <div>
+          <div><h1 className='text-[16px]'>Envoyer Nous un Texto</h1></div>
+          <a className="block text-xl text-[#303030] underline pt-2 pb-2" href="">579-990-0486</a>
+
+        </div>
+      </div>
+
       
     </div>
 
 
 
     {/* Location Contact Section */}
-    <div id="location-contact-section" className='flex justify-center items-center flex-col mb-28 lg:mr-8'>
+    <div id="location-contact-section" className='flex justify-center items-center flex-col mb-28  lg:w-[50vw] lg:mx-auto'>
       <Image src="/img/icon-location-blue.svg" width={600} height={600} alt="Blue location pin icon" title="Location Pin Icon Blue" className="w-[40px] mt-6 mb-2"/>
       <div>
         <a href="https://goo.gl/maps/NtLiwcoUEkFfgYaE7" target="_blank" rel="noopener noreferrer">
@@ -52,12 +62,13 @@ const Contactinfo = ({t}) => {
         </a>
         <iframe 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d712083.4075500782!2d-75.15420913696288!3d45.79972535174233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9283da40b4f51%3A0xd215c5d170d62ef5!2zR3JhdmVsIFBpw6hjZXMgROKAmWF1dG9zIFVzYWfDqWVzICYgTmV1dmVz!5e0!3m2!1sen!2sca!4v1727047651832!5m2!1sen!2sca" 
-          width="600" 
+          width="500" 
           height="450" 
-          style={{ border: '0' , width: '90vw', marginTop: '28px' }}  // This is how you use inline styles in JSX
+          style={{ border: '0' , width: '80vw', marginTop: '28px' }}  // This is how you use inline styles in JSX
           allowFullScreen="" 
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"
+         
         ></iframe>
       </div>
     </div>

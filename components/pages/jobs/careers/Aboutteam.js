@@ -13,21 +13,21 @@ const Aboutteam = ({t}) => {
 
           <div className='relative mb-6'>
             <Image src="/img/outside-new-building-winter.jpg" width={600} height={600}  alt="A picture of the outside of the new Gravel Auto Parts building" title="New Building" className='w-full h-[300px]'/>
-            <div className='absolute top-0 left-0 w-full h-[300px] bg-[#13171cde] text-center flex justify-center items-center lg:bg-[rgba(27,84,145,0.71)]'>
+            <div className='absolute top-0 left-0 w-full h-[300px] bg-[#13171cde] text-center flex justify-center items-center lg:bg-[rgba(39,77,110,0.71)]'>
             <h1 className='relative z-20 text-3xl font-semibold text-white'>{t.careers.one}</h1>
             </div>
           </div>
 
           <div className='relative mb-6'>
             <Image src="/img/team-img/mechanic-1.jpg" width={600} height={600}  alt="A picture of a call representative sitting down looking at his computer" title="Team Rep One" className='w-full h-[300px]'/>
-            <div className='absolute top-0 left-0 w-full h-[300px] bg-[#13171cde] text-center flex justify-center items-center lg:bg-[rgba(27,84,145,0.71)]'>
+            <div className='absolute top-0 left-0 w-full h-[300px] bg-[#13171cde] text-center flex justify-center items-center lg:bg-[rgba(39,77,110,0.71)]'>
             <h1 className='relative z-20 text-3xl font-semibold text-white'>{t.careers.two}</h1>
           </div>
           </div>
 
           <div className='relative mb-6'>
             <Image src="/img/customer-service-desk.jpg" width={600} height={600}  alt="A picture of a call representative sitting down looking at his computer" title="Team Rep One" className='w-full h-[300px]'/>
-            <div className='absolute top-0 left-0 w-full h-[300px] bg-[#13171cde] text-center flex justify-center items-center lg:bg-[rgba(27,84,145,0.71)]'>
+            <div className='absolute top-0 left-0 w-full h-[300px] bg-[#13171cde] text-center flex justify-center items-center lg:bg-[rgba(39,77,110,0.71)]'>
             <h1 className='relative z-20 text-3xl font-semibold text-white '>{t.careers.three}</h1>
           </div>
           </div>

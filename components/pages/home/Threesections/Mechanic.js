@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const Mechanichome = ({t, locale}) => {
   return (
-    <div className='lg:flex'>
-        <div id="first-box" className="h-[500px] w-full bg-[#fefefe] pl-5 pr-5 flex items-center sm:h-[350px] sm:items-center sm:px-12 md:h-[500px] md:pl-20 md:w-[650px] md:pt-16 lg:w-[950px] lg:pl-32 lg:h-[400px] lg:pt-[140px]">
+    <div className='lg:flex lg:h-[90vh] '>
+        <div id="first-box" className="h-[500px] w-full bg-[#fefefe] pl-5 pr-5 flex items-center sm:h-[350px] sm:items-center sm:px-12 md:h-[500px] md:pl-20 md:w-[650px] md:pt-16 lg:w-[1250px] lg:pl-32 lg:h-[400px] lg:pt-[140px]">
             <div >
                  <p className='text-black text-base pt-8 pr-4 pb-2 '>- {t.threesections.mechanich3} -</p>
                  <h2 className='text-4xl font-bold pb-1 sm:text-3xl'>{t.threesections.mechanich1}</h2>
@@ -16,9 +16,9 @@ const Mechanichome = ({t, locale}) => {
             </div>
         </div>    
 
-        <div className='w-[600px] h-[355px] z-10 relative mt-[-120px] right-7 sm:w-[120vw] lg:w-[80vw] lg:ml-[400px]'>
+        <div className='w-[600px] h-[355px] z-10 relative mt-[-90px] right-7 sm:w-[120vw] lg:relative lg:mt-[150px] lg:right-0 lg:w-auto'>
           {/* <Image src="/img/building-illustration-transparent-bg.svg" width={600} height={600} alt="An illustration of the gravel auto parts building, contains three garages and is mostly blue" title="Gravel Auto Parts Building" className='lg:w-[80vw]'/> */}
-          <Image src="/img/outside-building.png" width={600} height={600} alt="An illustration of the gravel auto parts building, contains three garages and is mostly blue" title="Gravel Auto Parts Building" className='lg:w-[80vw]'/>
+          <Image src="/img/outside-building.png" width={600} height={600} alt="An illustration of the gravel auto parts building, contains three garages and is mostly blue" title="Gravel Auto Parts Building" className='lg:w-[100vw]'/>
           </div>
     </div>
   )
