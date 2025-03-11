@@ -16,8 +16,8 @@ const Home = async ({params}) => {
     <div>
       {/* <LoaderSvg /> */}
       < Headerhome t={translation} locale={params.locale} />
-      < Threesections t={translation} locale={params.locale} />
       < Partingsection t={translation} locale={params.locale}/>
+      < Threesections t={translation} locale={params.locale} />
       < Flexfleet t={translation} locale={params.locale}/>
       < Promos t={translation} locale={params.locale}/>
       < Socials t={translation} locale={params.locale}/>

@@ -1,4 +1,4 @@
-// File: /Users/chelsea/Desktop/piecesautogravelfinal/app/[locale]/[slug]/page.js
+// File: /Users/chelseagravel/Desktop/piecesautogravel/app/[locale]/[slug]/page.js
 import * as entry from '../../../../../app/[locale]/[slug]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

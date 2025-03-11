@@ -39,7 +39,9 @@
         "palliasite": "pallia-vie.ca",
         "quote": "OBTENIR UNE SOUMISSION",
         "donate": "FAIRE UN DON",
-        "newsletter": "Abonnez"
+        "newsletter": "Abonnez",
+        "donatetwo":"FAIRE UN DON",
+        "quotetwo":"SOUMISSION"
     },
 
     "numbers" : {
@@ -73,7 +75,7 @@
 
     "oldcar" : {
         "h3": "VENDRE POUR RECYCLER",
-        "h1": "Prêt à vous séparer de votre voiture?",
+        "h1": "Prêt à vous départir de votre voiture?",
         "textone": "Êtes-vous prêt à vendre votre véhicule usagé? Qu'il soit en bon état ou non, nous achèterons votre citron.",
         "texttwo": "Vous pouvez utiliser nos services pour obtenir un devis en espèces ou pour reverser les revenus de la vente de votre vieille automobile à un organisme de bienfaisance de votre choix."
     },
@@ -134,7 +136,7 @@
     "vehicles" : {
         "h1" : "PRÊT À VENDRE VOTRE VOITURE?",
         "textone" : "Êtes-vous prêt à vendre votre véhicule ? Qu'il soit en bon état ou non, nous achèterons votre véhicule.",
-        "texttwo" : "Nous faisons l'achat de véhicules prêts à être mis au rancart via les deux programmes suivants. Il vous est possible d'obtenir une évaluation en ligne."
+        "texttwo" : "Nous faisons l'achat de véhicules prêts à être mis au rancart via les deux programmes suivants."
     },
 
     "adieuminoune" : {
@@ -207,7 +209,9 @@
     "contact" : {
         "h1" : "NOUS JOINDRE",
         "text" : "change this text",
-        "texting": "Contactez-nous par texto pour vos besoin de piece d'auto",
+        "texting": "Contactez-nous par texto pour vos besoin de pièce d'auto",
+        "textingtwo": "Vous pouvez désormais facilement passer des commandes et faire des demandes par texto! Envoyez simplement un message à notre numéro désigné et notre équipe vous aidera rapidement et efficacement. Profitez d'un moyen plus pratique d'obtenir l'assistance dont vous avez besoin, à portée de main!",
+        "textingh1": "Envoyez-nous un texto",
         "meet" : "RENCONTRER L'ÉQUIPE",
         "textmeet" : "Dans notre entreprise, nous sommes fiers des personnes talentueuses et dévouées qui composent notre équipe. Chaque membre de l’équipe apporte ses compétences et ses perspectives uniques, créant ainsi un environnement de travail dynamique et inclusif.",
         "texttwo" : "Si vous avez besoin d'aide pour trouver la pièce automobile idéale, n'hésitez pas à contacter un membre de notre équipe."

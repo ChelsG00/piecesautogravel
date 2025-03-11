@@ -40,7 +40,9 @@
         "palliasite": "pallia-vie.ca",
         "quote": "GET A QUOTE",
         "donate": "DONATE",
-        "newsletter": "Sign Up"
+        "newsletter": "Sign Up",
+        "donatetwo": "DONATE",
+        "quotetwo": "GET A QUOTE"
     },
 
     "numbers" : {
@@ -210,6 +212,8 @@
         "h1" : "CONTACT US",
         "text" : "change this text",
         "texting": "Reach us by text for your auto part needs",
+        "textingtwo":"Now you can easily place orders and make requests via text message! Simply send a message to our designated number, and our team will assist you quickly and efficiently. Enjoy a more convenient way to get the support you need—right at your fingertips!",
+        "textingh1": "Envoyez-nous un texto",
         "meet" : "MEET THE TEAM",
         "textmeet" : "At our company, we're proud of the talented and dedicated individuals who make up our team. Each team member brings their unique skills and perspectives to the table, creating a dynamic and inclusive work environment.",
         "texttwo" : "If you need help locating the ideal auto part, don't hesitate to get in touch with a member of our team."

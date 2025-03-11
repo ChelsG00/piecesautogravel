@@ -3,44 +3,45 @@ import React, { useEffect, useState } from 'react';
 import ProfitCalculator from './Profitcalc';
 import TireCalculator from './Tirecalc';
 
+
 function Calculator({ t, locale, slug }) {
-    useEffect(() => {
-        const isAuthenticated = sessionStorage.getItem('authenticated');
-        if (isAuthenticated !== 'true') {
-            window.location.href = `/${locale}/login`;
-        }
-    }, [locale]);
+   useEffect(() => {
+       const isAuthenticated = sessionStorage.getItem('authenticated');
+       if (isAuthenticated !== 'true') {
+           window.location.href = `/${locale}/login`;
+       }
+   }, [locale]);
 
-    const [selectedCalculator, setSelectedCalculator] = useState('profit');
 
-    return (
-        <div className='h-[100vh] flex flex-col items-center justify-center'>
-            <nav>
-                <div className='flex items-center'>
-                    <button className="mr-4 text-[16px]" onClick={() => setSelectedCalculator('profit')}>
-                        Calculatrice de Profit
-                    </button>
-                    <p className="mx-2 text-[16px]">/</p>
-                    <button className="ml-4 text-[16px]" onClick={() => setSelectedCalculator('tire')}>
-                        Calculatrice de Pneu
-                    </button>
-                </div>
-            </nav>
-            <div>
-                {selectedCalculator === 'profit' ? (
-                    <ProfitCalculator key="profit" />
-                ) : (
-                    <TireCalculator key="tire" />
-                )}
-            </div>
-        </div>
-    );
+   const [selectedCalculator, setSelectedCalculator] = useState('profit');
+
+
+   return (
+       <div className='h-[100vh] flex flex-col items-center mt-[170px]'>
+           <nav>
+               <div className='flex items-center'>
+                   <button className="mr-4 text-[16px]" onClick={() => setSelectedCalculator('profit')}>
+                       Calculatrice de Profit
+                   </button>
+                   <p className="mx-2 text-[16px]">/</p>
+                   <button className="ml-4 text-[16px]" onClick={() => setSelectedCalculator('tire')}>
+                       Calculatrice de Pneu
+                   </button>
+               </div>
+           </nav>
+           <div>
+               {selectedCalculator === 'profit' ? (
+                   <ProfitCalculator key="profit" />
+               ) : (
+                   <TireCalculator key="tire" />
+               )}
+           </div>
+       </div>
+   );
 }
 
+
 export default Calculator;
-
-
-
 
 
 // 'use client'

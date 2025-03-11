@@ -1299,7 +1299,7 @@ body svg.ham.hamRotate.ham4.menu__icon.active._active {
       background-image: url(/img/used-auto.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      height: 60vh;
+      height: 68vh;
       width: 100%;
       margin-top: -68px;
     }
@@ -1528,8 +1528,8 @@ body svg.ham.hamRotate.ham4.menu__icon.active._active {
         
       } */
 
-      .cargroups {
-        /* background-color: rgb(254, 254, 254);
+      /* .cargroups {
+        background-color: rgb(254, 254, 254);
         padding-top: 40px;
         padding-bottom: 32px;
         padding-left: 16px;
@@ -1537,8 +1537,8 @@ body svg.ham.hamRotate.ham4.menu__icon.active._active {
         margin-bottom: 16px; */
         /* -webkit-box-shadow: 2px 3px 8px rgba(170, 170, 170, 0.4);
         -moz-box-shadow: 2px 3px 8px rgba(170, 170, 170, 0.4);
-        box-shadow: 2px 3px 8px rgba(170, 170, 170, 0.4); */
-      }
+        box-shadow: 2px 3px 8px rgba(170, 170, 170, 0.4);
+      } */
 
       .cargroups p {
         padding-bottom: 0;
