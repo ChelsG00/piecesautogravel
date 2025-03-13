@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 
 
-function Connection({ t, locale, slug }) {
+function Connections ({ t, locale, slug }) {
    const [pin, setPin] = useState('');
    const [error, setError] = useState('');
 
@@ -58,7 +58,7 @@ function Connection({ t, locale, slug }) {
 }
 
 
-export default Connection;
+export default Connections;
 
 
 

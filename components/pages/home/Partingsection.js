@@ -7,12 +7,12 @@ import Donate from './Partingsections/Donate'
 export const Partingsection = ({t, locale}) => {
   return (
     <div className="w-full h-auto bg-[#fbfbfb] pt-24 pb-10 pl-6 pr-6 mb-2 text-left relative sm:px-12 lg:flex lg:pt-28 lg:mx-auto lg:pl-[150px]">
-   <div>
-     <Image src="/img/holding-keys.jpg" width={600} height={600} className="w-[50vw]" />
-   </div>
    <div id="scrap-car-text" className='lg:max-w-[100vw] lg:mx-auto lg:pl-[50px] lg:pr-[250px]'>
        <p className='text-left uppercase block text-base pb-2'>- {t.oldcar.h3} -</p>
        <h1 className='clear-both text-4xl pb-8  font-bold'>{t.oldcar.h1}</h1>
+       <div>
+     <Image src="/img/holding-keys.jpg" width={600} height={600} className="w-[50vw]" />
+   </div>
        <p className='pb-4 text-left leading-9 lg:text-[16px] lg:pb-2'>{t.oldcar.textone}</p>
        <p className='pb-8 leading-9 lg:text-[16px]'>{t.oldcar.texttwo}</p>
    <div>

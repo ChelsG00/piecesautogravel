@@ -5,7 +5,6 @@ const defaultLocale = "fr";
 const locales = ["fr", "en"];
 
 export function middleware(request) {
-  // Check if there is any supported locale in the pathname
   const { pathname } = request.nextUrl;
   let locale = defaultLocale;
   let slug = pathname;
@@ -19,8 +18,13 @@ export function middleware(request) {
     slug = pathname.substring(3);
   }
 
+  //**Prevent Redirect Loop on Login Page**
+  if (pathname === "/login" || pathname.startsWith("/fr/login") || pathname.startsWith("/en/login")) {
+    return NextResponse.next(); // ✅ Allow `/login` to load without rewrites
+  }
+
+  // Redirect `/fr/` to `/` (Default Locale Handling)
   if (pathname.startsWith(`/${defaultLocale}/`) || pathname === `/${defaultLocale}`) {
-    const newUrl = new URL(`${request.nextUrl.protocol}//${request.nextUrl.host}/${slug}`);
     return NextResponse.redirect(
       new URL(pathname.replace(`/${defaultLocale}`, pathname === `/${defaultLocale}` ? "/" : ""), request.url)
     );
@@ -33,7 +37,6 @@ export function middleware(request) {
 export const config = {
   matcher: ["/((?!api|_next/static|_next/image|img|favicon.ico).*)"],
 };
-
 
 
 // import { i18nRouter } from "next-i18n-router";

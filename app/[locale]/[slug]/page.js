@@ -9,7 +9,7 @@ import Mechanic from './mechanic';
 import Newparts from './newparts';
 import Usedparts from './usedparts';
 import Vehicles from './vehicles';
-import Calculator from '@/components/pages/login/Calculators'; // Ensure the path is correct based on your file structure
+import Calculator from '@/components/pages/login/Calculators-test'; // Ensure the path is correct based on your file structure
 
 export const RenderPage = async ({ params }) => {
     const translation = await getDictionary(params.locale);
@@ -48,6 +48,7 @@ export const RenderPage = async ({ params }) => {
         case "se-connecter":
             return <Connection t={translation} locale={params.locale} slug={params.slug} />;
         case "calculator":
+        case "calculatrices":
             return <Calculator t={translation} locale={params.locale} slug={params.slug} />;
             default:
         return <div>Page not found</div>;

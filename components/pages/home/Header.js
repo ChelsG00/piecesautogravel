@@ -11,6 +11,7 @@ export const Headerhome = ({t, locale}) => {
     <div className='sm:hidden'>
       <Videolong />
     </div>
+   
     <div className="hidden sm:block lg:hidden">
       <Videotablet />
     </div>

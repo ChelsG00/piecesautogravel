@@ -1,10 +1,10 @@
 import React from 'react';
-import Connection from '@/components/pages/login/Login';
+import Connection from '@/components/pages/login/Login-test';
 
-const ConnectionPage = ({ onPinSubmit, t }) => {
+const ConnectionPage = ({t, locale }) => {
     return (
         <div>
-            <Connection onPinSubmit={onPinSubmit} t={t} />
+            <Connection  t={t} locale={locale} />
         </div>
     );
 };

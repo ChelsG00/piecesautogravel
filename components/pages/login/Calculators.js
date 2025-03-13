@@ -4,7 +4,7 @@ import ProfitCalculator from './Profitcalc';
 import TireCalculator from './Tirecalc';
 
 
-function Calculator({ t, locale, slug }) {
+function Calculators ({ t, locale, slug }) {
    useEffect(() => {
        const isAuthenticated = sessionStorage.getItem('authenticated');
        if (isAuthenticated !== 'true') {
@@ -41,7 +41,7 @@ function Calculator({ t, locale, slug }) {
 }
 
 
-export default Calculator;
+export default Calculators;
 
 
 // 'use client'

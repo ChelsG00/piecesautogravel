@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/chelseagravel/Desktop/piecesautogravel/app/[locale]/layout":["static/media/ab86f138d0d6e9da-s.p.woff2","static/media/a34f9d1faa5f3315-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/chelseagravel/Desktop/piecesautogravel/app/[locale]/layout\":[\"static/media/ab86f138d0d6e9da-s.p.woff2\",\"static/media/a34f9d1faa5f3315-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
